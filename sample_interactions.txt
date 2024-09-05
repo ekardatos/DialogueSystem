@@ -1,0 +1,56 @@
+Sample Interactions
+
+
+1st
+
+Your input ->  helo
+Your name, please?
+Your input ->  Katia
+Hey Katia! How can i help you?
+Your input ->  what are you?
+I am a bot, powered by Rasa and i can help you to find a sofa!
+Your input ->  ok what sofa?
+What type of sofa do you prefer?
+Your input ->  a rounded
+What type of seater do you want?
+Your input ->  6 seaters
+How much money do you want to spend?
+Your input ->  10000
+You can find a plethora of products with 10000 euros! What option do you prefer? (e.g. the best)
+Your input ->  the cheapest
+Well, the right option is from 'X Industry'! Are you ok?
+Your input ->  yes
+Great, carry on!
+Your input ->  goodbye
+Bye Katia!
+
+
+2nd
+
+Your input ->  hey
+Your name, please?
+Your input ->  Tom
+Hey Tom! How can i help you?
+Your input ->  bb
+Bye Tom!
+
+
+3rd
+
+Your input ->  hey
+Your name, please?
+Your input ->  are you a bot?
+I am a bot, powered by Rasa and i can help you to find a sofa!
+Your input ->  Vagg
+Hey Vagg! How can i help you?
+Your input ->  i want an agent
+An agent will contact you!
+
+4th
+
+Your input ->  halo
+Your name, please?
+Your input ->  Susan
+Hey Susan! How can i help you?
+Your input ->  i want to see a football match
+Please, type something about sofa.

@@ -1,0 +1,18 @@
+Assignment 4
+
+This specific bot is an interactive system that tries to deliver information – assist a user in purchasing furniture or educate them about furniture, specifically a sofa. More specifically, 
+the system assesses information supplied by the user, including his name, preferred sofa, furniture placement, available financial resources, and option preferences (better, cheaper, 
+more expensive). In accordance with the foregoing, the system additionally fills in some blanks (names, euros), functioning as the bot's memory, producing a customized experience for the 
+user - client while also assisting him in making a better financial decision given the money option he made.
+
+
+New Elements:
+
+- domain.yml: make entities (names, euros), slots (names, euros) and add new responses (utter_names, utter_deny, utter_agent) as well as remove a response (utter_cheer_up)
+
+- nlu.yml: add new intents, annotate words and phrases as names and euros entities in the examples of the corresponding intents
+
+- stories: make new stories and delete the old ones 
+
+- config.yml: just "uncomment" the lines under pipeline and polices
+

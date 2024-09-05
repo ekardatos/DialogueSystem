@@ -1,0 +1,122 @@
+version: "3.1"
+
+stories:
+
+#- story: sofa path
+#  steps:
+#  - intent: greet
+#  - action: utter_name
+#  - intent: name
+#  - action: utter_greet
+#  - intent: sofa_challenge
+#  - action: utter_sofa
+#  - intent: checking_type1
+#  - action: utter_type1
+#  - intent: checking_type2
+#  - action: utter_type2
+#  - intent: money
+#  - action: utter_money
+#  - intent: option
+#  - action: utter_option
+
+- story: misunderstanding
+  steps:
+  - intent: don't_understand
+  - action: utter_understand
+
+- story: sofa path 2
+  steps:
+  - intent: sofa_challenge
+  - action: utter_sofa
+  - intent: option
+  - action: utter_option
+  
+#- story: sofa path 3
+#  steps:
+#  - intent: greet
+#  - action: utter_name
+#  - intent: name
+#  - action: utter_greet
+#  - intent: agent
+#  - action: utter_agent
+
+#- story: sofa path 4
+#  steps:
+#  - intent: name
+#  - action: utter_greet
+
+- story: sofa path 5
+  steps:
+  - intent: agent
+  - action: utter_agent
+
+- story: sofa path 6
+  steps:
+  - intent: greet
+  - action: utter_name
+  - intent: name
+  - action: store_customer_action
+  - action: utter_client_info_stored
+  #- action: utter_greet
+
+- story: check 1
+  steps:
+  - intent: sofa_challenge
+  - action: utter_sofa
+  - intent: checking_type1
+  - action: utter_type1
+
+- story: check 2
+  steps:
+  - intent: checking_type1
+  - action: utter_type1
+  - intent: checking_type2
+  - action: utter_type2
+
+- story: check 3
+  steps:
+  - intent: checking_type2
+  - action: utter_type2
+  - intent: money
+  - action: utter_money
+
+- story: check 4
+  steps:
+  - intent: money
+  - action: utter_money
+  - intent: option
+  - action: utter_option
+
+- story: check 5
+  steps:
+  - intent: option
+  - action: utter_option
+  - intent: affirm
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: check 7
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: check 8
+  steps:  
+  - intent: affirm
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: bot 
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: option no
+  steps:
+  - intent: option
+  - action: utter_option
+  - intent: deny
+  - action: utter_deny
+  - intent: affirm

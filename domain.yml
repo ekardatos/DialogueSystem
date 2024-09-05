@@ -1,0 +1,89 @@
+version: "3.1"
+
+intents:
+  - greet
+  - name
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - sofa_challenge
+  - checking_type1
+  - checking_type2
+  - money
+  - option
+  - agent
+  - don't_understand
+
+entities:
+  - euros
+  - names
+
+slots:
+  euros:
+    type: float
+    min_value: 0.0
+    max_value: 5000.0
+    mappings:
+    - type: from_entity
+      entity: euros
+  names:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: names
+
+
+actions:
+- store_customer_action 
+
+responses:
+  utter_name:
+  - text: "Your name, please?"
+  
+  utter_greet:
+  - text: "Hey {names}! How can i help you?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye {names}!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa and i can help you to find a sofa!"
+
+  utter_sofa:
+  - text: "What type of sofa do you prefer?"
+ 
+  utter_type1:
+  - text: "What type of seater do you want?"
+  
+  utter_type2:
+  - text: "How much money do you want to spend?"
+
+  utter_money:
+  - text: "You can find a plethora of products with {euros} euros! What option do you prefer? (e.g. the best)"
+
+  utter_option:
+  - text: "Well, the right option is from 'X Industry'! Are you ok?"
+
+  utter_agent:
+  - text: "An agent will contact you!"
+
+  utter_understand:
+  - text: "Please, type something about sofa."
+
+  utter_deny:
+  - text: "You can either try again or ask for an agent."
+  
+  utter_client_info_stored:
+  - text: "Thanks for your support!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
