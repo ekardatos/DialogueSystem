@@ -1,0 +1,55 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+- intent: affirm
+  examples: |
+    - indeed
+- intent: deny
+  examples: |
+    - n
+    - I don't think so
+- intent: sofa_challenge
+  examples: |
+    - sofa
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+- intent: don't_understand
+  examples: |
+    - basketball
+    - concert
+- intent: checking_type1
+  examples: |
+    - tuxedo sofas
+    - the sloped arm sofa
+    - the square arm sofa
+- intent: option
+  examples: |
+    - cheapest option
+    - i don't have preferences
+- intent: checking_type2
+  examples: |
+    - multi-seater
+    - 3 seats
+- intent: money
+  examples: |
+    - about 100
+    - from 600 to 699
+    - about 300
+- intent: greet
+  examples: |
+    - good morning
+    - hey
+    - goodmorning
+- intent: mood_great
+  examples: |
+    - so so perfect
+    - wonderful
+    - great
+- intent: mood_unhappy
+  examples: |
+    - so saad
+    - I am sad
