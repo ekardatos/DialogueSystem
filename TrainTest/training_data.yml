@@ -1,0 +1,308 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+    - am I talking to a bot?
+    - are you a human?
+- intent: agent
+  examples: |
+    - i want an agent, please!
+    - talk to human
+    - you can't help me, give me an agent
+    - not you agent
+    - want a person or human
+    - i want to talk to a person
+    - anyone else?
+    - agent
+    - need a human being
+    - a person
+- intent: don't_understand
+  examples: |
+    - plants
+    - cell phone
+    - trees
+    - volleyball
+    - car
+    - hmmm
+    - football
+    - cars
+    - concert
+    - restaurant
+    - basketball
+- intent: mood_great
+  examples: |
+    - great
+    - perfect
+    - so so perfect
+    - feeling like a king
+    - I am amazing
+    - extremely good
+    - super stoked
+    - I am great
+    - I am going to save the world
+    - wonderful
+    - amazing
+- intent: mood_unhappy
+  examples: |
+    - very sad
+    - unhappy
+    - I am disappointed
+    - sad
+    - I don't feel very well
+    - extremly sad
+    - I'm so sad
+    - super sad
+    - not good
+    - I am sad
+    - so saad
+- intent: checking_type2
+  examples: |
+    - 3 seaters
+    - 3 seats
+    - 5 seatres
+    - 1 seater
+    - 5 seats
+    - 2 seats
+    - multi-seater
+    - multi seater
+    - 4 seats
+    - 1 seats
+    - multi seats
+- intent: deny
+  examples: |
+    - no way
+    - I don't think so
+    - breath no
+    - do you have something else
+    - never
+    - no new selection
+    - uh no
+    - no
+    - not at all
+    - don't like that
+    - x
+    - no thanks
+    - no thank you
+- intent: option
+  examples: |
+    - the most expensive
+    - give me the cheapest
+    - the best option
+    - whatever you want
+    - cheap
+    - i need the expensive
+    - the best
+    - i want a medium option
+    - give me medium option
+    - give me the best option
+    - give me expensive
+    - medium
+    - cheapest option
+    - best option
+    - no preferences
+- intent: goodbye
+  examples: |
+    - see you later
+    - Goodbye!
+    - See ya!
+    - cee you later
+    - Bye!
+    - bye bye
+    - good bye
+    - bb
+    - adios
+    - See you!
+    - Catch you later!
+    - I'm off.
+    - goodbye
+    - Cheerio!
+    - good by
+    - bye
+    - See you soon!
+    - have a nice day
+    - Bye for now!
+- intent: sofa_challenge
+  examples: |
+    - any furniture
+    - can i find a sofa?
+    - any sofa, please?
+    - i need sofa
+    - sofa please
+    - need a sofa
+    - sofaaaaa
+    - furniture
+    - a sofa furniture
+    - i need to find a sofa
+    - id like a sofa
+    - any sofa?
+    - what do you sell?
+    - a furniture
+    - where can i find a sofa?
+    - do you have a sofa for me?
+    - sofa?
+    - im looking for a sofa
+    - sofa
+    - could you please help me with a sofa?
+- intent: checking_type1
+  examples: |
+    - the English Roll arm sofa
+    - sofa with wooden arms
+    - a Belgian roll arm sofa
+    - wingback sofa
+    - ottoman sofa
+    - a sloped arm sofa
+    - high back sofa
+    - rollback sofa
+    - sofa with no arms
+    - the hard wedge arm sofa
+    - tuxedo sofa
+    - round back sofa
+    - modular sofa
+    - camelback sofa
+    - armchair sofa
+    - a square arm sofa
+    - classic round arm sofa
+    - a round arm sofa
+    - square arm sofa
+- intent: affirm
+  examples: |
+    - ok
+    - yea
+    - y
+    - ye
+    - right
+    - yep
+    - it's OK!
+    - of course
+    - yes thanks
+    - i love that
+    - that sounds good
+    - yes and i dont care
+    - sounds really good
+    - ok thank you
+    - thank you
+    - yes yes
+    - yeah
+    - good
+    - correct
+    - uh yes
+    - great choice
+    - ok thanks
+    - yes right
+    - that's correct
+    - yes thank you
+    - yes knocking
+    - um yes
+    - indeed
+    - yes
+- intent: greet
+  examples: |
+    - hi Mister
+    - hello robot
+    - hi madam!
+    - hi again
+    - hi
+    - hey hey
+    - greetings
+    - good afternoon
+    - Hi bot
+    - Good morning
+    - hello is anybody there
+    - yo
+    - hallo
+    - hi folks
+    - excuse me
+    - hey
+    - Hey bot
+    - hi sir!
+    - hey bot!
+    - hey there
+    - good evening
+    - hello friend
+    - hello sir
+    - hello
+    - hi hi
+    - hey dude
+    - hi pal!
+    - let's go
+    - hello everybody
+    - goodmorning
+    - heeey
+- intent: money
+  examples: |
+    - about [195](euros)
+    - from [2000](euros) to [2999](euros)
+    - about [3000](euros)
+    - about [951](euros)
+    - about [800](euros)
+    - [2109](euros)
+    - about [300](euros)
+    - about [5000](euros)
+    - about [456](euros)
+    - about [400](euros)
+    - about [200](euros)
+    - about [789](euros)
+    - about [900](euros)
+    - about [1000](euros)
+    - [5000](euros)
+    - from [100](euros) to [199](euros)
+    - from [500](euros) to [599](euros)
+    - about [2000](euros)
+    - from [3000](euros) to [3999](euros)
+    - [3654](euros)
+    - about [321](euros)
+    - from [0](euros) to [99](euros)
+    - from [400](euros) to [499](euros)
+    - from [700](euros) to [799](euros)
+    - [3000](euros)
+    - about [4000](euros)
+    - about [852](euros)
+    - about [3147](euros)
+    - from [300](euros) to [399](euros)
+    - about [753](euros)
+    - about [600](euros)
+    - from [200](euros) to [299](euros)
+    - from [600](euros) to [699](euros)
+    - for free
+    - about [700](euros)
+- intent: name
+  examples: |
+    - name [Barbara](names)
+    - my name is [Jerry](names)
+    - i'm [Emmett](names)
+    - [John](names)
+    - name [Olive](names)
+    - my name is [Tom](names)
+    - [William](names)
+    - [Bob](names)
+    - i'm [Dereck Tucker](names)
+    - [Andrew](names)
+    - [Ivan](names)
+    - [Juancho](names)
+    - name [Mary](names)
+    - Its [Hernan Gomez](names)
+    - [David](names)
+    - My name is [Susan](names)
+    - [Torres](names)
+    - [Nick](names)
+    - [Julian](names)
+    - my name is [Lydia](names)
+    - my name is [Lebron James](names)
+    - it's [Antoine](names)
+    - its [Andres](names)
+    - [Jorge](names)
+    - [Dan](names)
+    - [Maria](names)
+    - [Seth](names)
+    - [Lily](names)
+    - [Alex](names)
+    - It's [Juan](names) here
+    - my name is [Gilbert](names)
+    - [Fred](names)
+    - name [Oscar](names)
+    - Name: [Jim](names)
+    - [John Doe](names)
+    - [Riley](names)
+    - [Wade](names)
+    - [Christiano](names)

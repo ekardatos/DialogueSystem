@@ -1,0 +1,101 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+- intent: agent
+  examples: |
+    - not bot
+    - i can't understand you, i want an agent
+    - i want to talk to an agent
+- intent: don't_understand
+  examples: |
+    - plane
+    - trip
+- intent: mood_great
+  examples: |
+    - so perfect
+    - so good
+    - I am feeling very good
+- intent: mood_unhappy
+  examples: |
+    - not very good
+    - my day was horrible
+    - so sad
+- intent: checking_type2
+  examples: |
+    - 4 seaters
+    - multi-seats
+    - 2 seaters
+- intent: deny
+  examples: |
+    - not really
+    - no this does not work for me
+    - n
+- intent: option
+  examples: |
+    - cheapest
+    - give me the cheapest option
+    - i don't have preferences
+    - expensive
+- intent: goodbye
+  examples: |
+    - good night
+    - Good night!
+    - cu
+    - see you around
+    - Be seeing you!
+- intent: sofa_challenge
+  examples: |
+    - i want sofa.
+    - give me a sofa
+    - find me a sofa
+    - how can you help me?
+- intent: checking_type1
+  examples: |
+    - sofa beds
+    - loveseat sofa
+    - barrelback sofa
+    - a rounded wedge arm sofa
+    - a hard wedge arm sofa
+- intent: affirm
+  examples: |
+    - its ok
+    - It's ok!
+    - OK
+    - thanks
+    - let's do it
+    - right on
+    - okay
+- intent: greet
+  examples: |
+    - goodevening
+    - hi?
+    - hello there
+    - moin
+    - hola
+    - Hello
+    - good morning
+    - hi there
+- intent: money
+  examples: |
+    - from [4000](euros) to [4999](euros)
+    - about [500](euros)
+    - [4000](euros)
+    - from [900](euros) to [999](euros)
+    - from [1000](euros) to [1999](euros)
+    - [1000](euros)
+    - [2000](euros)
+    - from [800](euros) to [899](euros)
+    - about [100](euros)
+- intent: name
+  examples: |
+    - Name: [Dimi](names)
+    - [Juliet](names)
+    - [Dave](names)
+    - [Julia](names)
+    - i'm [Oleg](names)
+    - i'm [Georgia](names)
+    - name [Michael](names)
+    - [Miles](names)
+    - it's [Barack Obama](names)
