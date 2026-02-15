@@ -2,22 +2,6 @@ version: "3.1"
 
 stories:
 
-#- story: sofa path
-#  steps:
-#  - intent: greet
-#  - action: utter_name
-#  - intent: name
-#  - action: utter_greet
-#  - intent: sofa_challenge
-#  - action: utter_sofa
-#  - intent: checking_type1
-#  - action: utter_type1
-#  - intent: checking_type2
-#  - action: utter_type2
-#  - intent: money
-#  - action: utter_money
-#  - intent: option
-#  - action: utter_option
 
 - story: misunderstanding
   steps:
@@ -31,19 +15,6 @@ stories:
   - intent: option
   - action: utter_option
   
-#- story: sofa path 3
-#  steps:
-#  - intent: greet
-#  - action: utter_name
-#  - intent: name
-#  - action: utter_greet
-#  - intent: agent
-#  - action: utter_agent
-
-#- story: sofa path 4
-#  steps:
-#  - intent: name
-#  - action: utter_greet
 
 - story: sofa path 5
   steps:
