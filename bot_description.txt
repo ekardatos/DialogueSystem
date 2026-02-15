@@ -1,5 +1,3 @@
-Assignment 4
-
 This specific bot is an interactive system that tries to deliver information – assist a user in purchasing furniture or educate them about furniture, specifically a sofa. More specifically, 
 the system assesses information supplied by the user, including his name, preferred sofa, furniture placement, available financial resources, and option preferences (better, cheaper, 
 more expensive). In accordance with the foregoing, the system additionally fills in some blanks (names, euros), functioning as the bot's memory, producing a customized experience for the 
@@ -15,4 +13,5 @@ New Elements:
 - stories: make new stories and delete the old ones 
 
 - config.yml: just "uncomment" the lines under pipeline and polices
+
 
